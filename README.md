@@ -1,7 +1,13 @@
 # File-Header-Forge-for-CPP-Edition
 File Header Forge的C++版
 
-详细请见File-Header-Forger-for-python-Edition的自述文件
-https://github.com/15dd/File-Header-Forger-for-python-Edition
+## 用途
+此工具针对使用部分云盘时,受到文件分享类型限制进行伪造
+## 原理
+- aliyundrive在分享文件时,会查看文件头(即文件类型),假如检测到压缩文件等受到限制的文件时会无法分享,在对受限制的文件进行伪造文件头后,即可突破限制,正常分享
+- 如zip的文件头为504b0304,将其改为aliyundrive支持的格式即可
+- 经过多次测试,经伪造后再还原的文件与原文件对比,hash值始终相同,可放心使用(毕竟只是改了文件的前几个字节)
 
+### 最近发现阿里云盘也对文件扩展名进行检测了,后续版本会解决这个问题
+---
 ##### 目前仅提供Windows 64位版本(不会还有人用32位版的windows吧)
