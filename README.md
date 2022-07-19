@@ -1,6 +1,6 @@
 # File-Header-Forge-for-CPP-Edition
 File Header Forge的C++版
-
+对界面进行了优化,增加了功能,提高了启动速度,支持自定义添加文件头
 ## 用途
 此工具针对使用部分云盘时,受到文件分享类型限制进行伪造
 ## 原理
