@@ -1,3 +1,4 @@
+# 此项目废弃,不再更新,请使用python版,https://github.com/15dd/File-Header-Forge
 # File-Header-Forge-for-CPP-Edition
 File Header Forge的C++版
 对界面进行了优化,增加了功能,提高了启动速度,支持自定义添加文件头
